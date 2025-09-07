@@ -1,0 +1,7 @@
+word=input("Enter the name or number:")
+word=word.lower()
+if(word==word[::-1]):
+print("It is a palindrome")
+else:
+print("It is not a palindrome")
+ 
